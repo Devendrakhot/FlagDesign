@@ -5,6 +5,10 @@
 }
 body {
   background-image: url(falling_flower.gif);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pole {
