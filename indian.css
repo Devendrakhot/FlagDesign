@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-image: url(falling_flower.gif);
+  background-image: url("falling_flower.gif");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
