@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    
+   
+    background-image: url(/falling_flower.gif);
+}
+
+.pole{
+    height: 80vh;
+    position: absolute;
+    width: 3vh;
+    z-index: 100;
+    top: 1.5ex;
+    left: 43.8ex;
+    border-radius: 50px 50px 0 0;
+    background-image: linear-gradient(gold, silver);
+}
+.flag .flag-frame{
+    position: relative;
+    left: 20%;
+    
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,40px,0);
+        opacity: 1
+    }
+}
+
+.flag {
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.name{
+    position:absolute;
+    font-size: 70px;
+  background: -webkit-linear-gradient(orange, white,blue,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 12ex;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.name {
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 16s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
