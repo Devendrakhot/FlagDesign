@@ -5,6 +5,7 @@
 }
 body {
   background-image: url("./falling_flower.gif");
+  background-color:black;
 }
 
 .pole {
